@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Alfred</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">Register for Meetup</string>
+    <string name="field_name">Name</string>
+    <string name="field_email">E-Mail</string>
+    <string name="field_company">Company</string>
+    <string name="field_store">Store for next time</string>
+    <string name="field_photo">Add Photo</string>
+    <string name="field_name_example">Max Mustermann</string>
+    <string name="field_email_example">max.mustermann@example.com</string>
+    <string name="field_company_example">ACME Ltd.</string>
     <string name="action_settings">Settings</string>
 
 </resources>
