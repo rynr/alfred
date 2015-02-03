@@ -61,10 +61,9 @@
         android:checked="true"
         android:id="@+id/field_form_store" />
 
-    <CheckBox
+    <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/field_photo"
-        android:checked="true"
-        android:id="@+id/field_form_photo" />
+        android:text="@string/field_submit"
+        android:id="@+id/field_form_submit" />
 </LinearLayout>

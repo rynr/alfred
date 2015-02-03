@@ -7,6 +7,7 @@
     <string name="field_company">Company</string>
     <string name="field_store">Store for next time</string>
     <string name="field_photo">Add Photo</string>
+    <string name="field_submit">Register</string>
     <string name="field_name_example">Max Mustermann</string>
     <string name="field_email_example">max.mustermann@example.com</string>
     <string name="field_company_example">ACME Ltd.</string>
