@@ -35,4 +35,5 @@ public class VisitResource {
     public Visit getVisit(Long id) {
         return visitRepository.findOne(id);
     }
+
 }
