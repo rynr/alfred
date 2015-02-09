@@ -34,7 +34,7 @@
     <EditText
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
+        android:inputType="textCapWords|textPersonName"
         android:hint="@string/field_name_example"
         android:ems="10"
         android:id="@+id/field_form_name" />

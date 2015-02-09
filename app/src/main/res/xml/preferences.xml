@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_key_service_url"
+        android:title="@string/pref_service_url_title"
+        android:inputType="textUri"
+        android:hint="@string/pref_service_url_hint"
+        android:lines="1"
+        android:maxLines="1"
+        android:persistent="true" />
+</PreferenceScreen>
