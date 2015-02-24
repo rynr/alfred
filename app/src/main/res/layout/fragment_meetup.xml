@@ -22,6 +22,7 @@
         android:inputType="textEmailAddress"
         android:hint="@string/field_email_example"
         android:ems="10"
+        android:maxLength="24"
         android:id="@+id/field_form_email" />
 
     <TextView
@@ -36,6 +37,7 @@
         android:layout_height="wrap_content"
         android:inputType="textCapWords|textPersonName"
         android:hint="@string/field_name_example"
+        android:maxLength="24"
         android:ems="10"
         android:id="@+id/field_form_name" />
 
@@ -52,18 +54,20 @@
         android:layout_height="wrap_content"
         android:hint="@string/field_company_example"
         android:inputType="textCapWords"
+        android:maxLength="24"
         android:id="@+id/field_form_company" />
-
+<!--
     <CheckBox
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/field_store"
         android:checked="true"
         android:id="@+id/field_form_store" />
-
+-->
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="@string/field_submit"
-        android:id="@+id/field_form_submit" />
+        android:id="@+id/field_form_submit"
+        android:onClick="sendMessage"/>
 </LinearLayout>
