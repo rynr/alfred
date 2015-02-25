@@ -25,7 +25,7 @@ public class Visit {
 
     @Column
     @NotNull
-    @Size(min = 3, max = 24)
+    @Size(min = 3, max = 128)
     private String name;
 
     @Column(name = "email")
@@ -34,7 +34,7 @@ public class Visit {
     private String email;
 
     @Column(name = "company")
-    @Size(min = 3, max = 24)
+    @Size(min = 3, max = 128)
     private String company;
 
     @Column(updatable = false, name = "created_at", nullable = false)
