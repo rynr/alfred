@@ -8,9 +8,9 @@
     <string name="field_store">Store for next time</string>
     <string name="field_photo">Add Photo</string>
     <string name="field_submit">Register</string>
-    <string name="field_name_example">Max Mustermann</string>
-    <string name="field_email_example">max.mustermann@example.com</string>
-    <string name="field_company_example">ACME Ltd.</string>
+    <string name="field_name_example">example: Max Mustermann</string>
+    <string name="field_email_example">example: max.mustermann@example.com</string>
+    <string name="field_company_example">example: ACME Ltd.</string>
 
     <string name="pref_service_url_title">Service URL</string>
     <string name="pref_service_url_hint">http://example.com/visits</string>
