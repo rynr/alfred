@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 
 @RestController
-public class TargetResource {
+public class PeopleResource {
 
 	private PeopleRepository peopleRepository;
 
 	@Autowired
-	public TargetResource(PeopleRepository visitRepository) {
+	public PeopleResource(PeopleRepository visitRepository) {
 		this.peopleRepository = visitRepository;
 	}
 
